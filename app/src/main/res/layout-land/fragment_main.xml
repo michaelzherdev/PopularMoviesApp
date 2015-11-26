@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.moviesapp.MainFragment">
+
+    <GridView
+        android:id="@+id/gridview_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp"
+        android:stretchMode="columnWidth"
+        android:numColumns="3"
+        tools:context=".MainFragment"
+        android:layout_gravity="center_horizontal|top" />
+
+</FrameLayout>
+
+
+    <!--android:columnWidth="154dp"-->
